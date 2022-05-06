@@ -1,4 +1,4 @@
-
+import time
 def printApprovedBoard(x,y):
     one = 'X' if x[0] != 0 else ('O' if y[0] != 0 else '1')
     two = 'X' if x[1] != 0 else ('O' if y[1] != 0 else '2')
@@ -55,3 +55,5 @@ if __name__ == "__main__":
                 break
     except:
         print("IO Exception...Bad Input :(")
+        time.sleep(10)
+    time.sleep(10)
